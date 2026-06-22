@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <script src="./script.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+
+</head>
+
+<body style="background-image:url(https://wallpaperaccess.com/full/3844885.jpg); font-family: Optima, sans-serif;">
+  <div class="window" id="welcome" 
+  style="position: absolute; 
+  top:50%; 
+  left:50%;
+  transform:translate(-50%, -50%); 
+  padding: 14px;  
+  width: 1000px; 
+  height: 400px;
+  ">
+  
+  <div class="windowheader" id="welcomeheader">
+
+   <div style="display:flex; gap:8px;">
+
+    <button class="closebutton" id="welcomeclose" 
+    style="
+      width:12px;
+      height:12px;
+      border-radius:50%;
+      border:none;
+      background-color:#ff5f57;
+      cursor:pointer;
+    "></button>
+    
+    <button id="welcomeminimize" style="
+      width:12px;
+      height:12px;
+      border-radius:50%;
+      border:none;
+      background-color:#ffbd2e;
+      cursor:pointer;
+    "></button>
+
+
+    <button id="welcomeopen" style="
+      width:12px;
+      height:12px;
+      border-radius:50%;
+      border:none;
+      background-color:#28c840;
+      cursor:pointer;
+    "></button>
+
+  </div>
+
+</div>
+
+     <h1 style="text-align:center;">Welcome to GoatOS!</h1>
+    
+     <p style="text-align:center;">GoatOS is the go-to <abbr title="Operating System">OS</abbr> 
+      (Operating System) for cute goat pictures and other cool things.</p>
+     
+      <p style="text-align:center;">Have a question about goats you're just dying to ask? We goat it. Haha, get it, goat it?</p>
+     
+      <p style="text-align:center;">Seriously. Goats rock, and you'll see just why in GoatOS. Want funny goat jokes? We've got you.
+      Explore the great features on GoatOS, and you'll be reminded why goats are just so awesome.
+     </p>
+     
+     <h2 style="text-align:center; position:absolute; top:70%; left:50%; transform:translate(-50%, -50%);">
+      Now that you've herd the goatspiel, I'll let you loose in the pasture. Have fun, explore!</h2>
+      <p style="text-align:center; position:absolute; top:80%; left:50%; transform:translate(-50%, -50%); font-size:40px;">🐐</p>
+  </div>
+
+   <div class="window" id="goatfacts"
+  style="position: absolute; 
+  ">
+  
+  <div class="windowheader" id="goatfactsheader"
+  style="
+  height:20px;
+  width:100%;
+  background-color: #1F0357;
+  border-radius: 10px 10px 0 0; 
+  ">
+
+   <div style="display:flex; gap:8px;">
+
+    <button class="closebutton" id="goatfactsclose" 
+    style="
+      width:12px;
+      height:12px;
+      border-radius:50%;
+      border:none;
+      background-color:#ff5f57;
+      cursor:pointer;
+    "></button>
+    <span style="
+    color:white;
+    font-size:17px;
+    font-weight:bold;
+    ">
+    Goat Facts
+  </span>
+
+  </div>
+
+  </div>
+<div id="goatLayout"
+style="
+display:flex;
+height:400px;
+">
+
+  <div id="goatSidebar"
+  style="
+  width:100px;
+  border-right:1px solid gray;
+  ">
+  </div>
+
+  <div id="goatContent"
+  style="
+  flex:1;
+  padding-left:20px;
+  color:white;
+  overflow-y:auto;">
+  </div>
+
+</div>
+
+  </div>
+  
+  <div style="display:flex;
+  justify-content: space-between;
+  align-items:center; 
+  width:90%;
+  margin: 20px auto;
+  padding: 10px 20px;
+  backdrop-filter:blur(10px); 
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: #fff;
+  border-radius: 10px;">
+  <div style="flex:1; text-align:left; padding-left: 20px;">
+    <p>GoatOS</p>
+  </div>
+  <div style="flex:1; text-align:center; font-style:oblique;">
+    <p>Don't Bleat Around the Bush, Do the Hard Thing</p>
+  </div>
+  
+  <div style="flex:1; text-align:right; padding-right: 20px;">
+  <span id="clock"></span>
+</div>
+
+  </div>
+<div id="desktopApps" style="
+padding-top:64px;
+padding-left:16px;">
+<div class="selected" 
+id="goatFactsIcon"
+onclick="handleIconTap(this)"
+style="
+background-color:white;
+padding:8px;
+border-radius:8px;
+text-align:center;
+width:fit-content;">
+  <img src="./1CCD03C0-816A-4D3C-B9B4-4A5098D9B921.jpeg" style="
+    width:64px;">
+  <p>GoatFacts</p>
+</div>
+
+</div>
+
+
+</body>
+  
+
+
+</html>
