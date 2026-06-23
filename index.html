@@ -63,7 +63,7 @@
      
       <p style="text-align:center;">Have a question about goats you're just dying to ask? We goat it. Haha, get it, goat it?</p>
      
-      <p style="text-align:center;">Seriously. Goats rock, and you'll see just why in GoatOS. Want funny goat jokes? We've got you.
+      <p style="text-align:center;">Seriously. Goats rock, and you'll see just why in GoatOS.
       Explore the great features on GoatOS, and you'll be reminded why goats are just so awesome.
      </p>
      
@@ -130,6 +130,49 @@ height:400px;
 </div>
 
   </div>
+
+<div class="window" id="goatgallery" style="position:absolute; display:none;">
+  
+  <div class="windowheader" id="goatgalleryheader">
+    <button class="closebutton" id="goatgalleryclose" 
+    style="
+      width:12px;
+      height:12px;
+      border-radius:50%;
+      border:none;
+      background-color:#ff5f57;
+      cursor:pointer;
+    "></button>
+    <span style="color:white;">Goat Gallery</span>
+  </div>
+
+<div style="padding:20px; color:white; text-align:center;">
+
+    <img
+    id="goatImage"
+    src="./placeholder.jpg"
+    style="
+    width:300px;
+    height:200px;
+    object-fit:contain;
+    ">
+
+    <h2 id="goatBreed">
+        Breed Name
+    </h2>
+
+    <p id="goatDescription">
+        Breed description goes here.
+    </p>
+
+    <div style="margin-top:20px;">
+      <button id="prevGoat">Previous</button>
+      <button id="nextGoat">Next</button>
+    </div>
+
+</div>
+
+</div>
   
   <div style="display:flex;
   justify-content: space-between;
@@ -169,12 +212,23 @@ width:fit-content;">
     width:64px;">
   <p>GoatFacts</p>
 </div>
+<div class="selected" 
+id="goatGalleryIcon"
+onclick="handleIconTap(this)"
+style="
+background-color:white;
+padding:8px;
+border-radius:8px;
+text-align:center;
+width:fit-content;
+margin-top:30px;">
+<img src="https://i.pinimg.com/originals/c6/83/a8/c683a8f489a315c327af98479e8f0704.jpg" style="width:64px">
+<p>GoatGallery</p>
+</div>
 
 </div>
 
-
 </body>
   
-
 
 </html>

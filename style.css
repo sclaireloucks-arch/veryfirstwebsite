@@ -65,3 +65,19 @@ outline:none;
     color:white;
     overflow-y:auto;
 }
+
+#goatgallery {
+     position:absolute;
+    top:100px;
+    left:100px;
+    width:800px;
+    height:400px;
+
+    display:none;
+    background-color:#0C7991;
+    border-radius: 18px;
+
+    flex-direction:column;
+
+    padding:14px;
+}
