@@ -142,11 +142,12 @@ goatFactsIcon.addEventListener("click", () => {
 
 var goatFacts = [
 {
-title: "Eating",
+title: "Diet",
 content: `
 <ul>
-<li>Goats do not eat everything.</li>
-<li>Many plants are toxic to goats.</li>
+<li>Goats are very picky eaters.</li>
+<li>Many plants are toxic to goats, including common ones like poppies.</li>
+<li>Goats have a four-chambered stomach similar to cows in order to digest the cellulose in plants.</li>
 </ul>
 `
 },
