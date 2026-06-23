@@ -3,7 +3,7 @@
 A fun interactive goat themed webOS that lets users interact with different apps and draggable windows in the browser. Built with HTML,
 JS, and CSS.
 
-![GoatOS Screenshot](images/Screenshot 2026-06-23 132053.png)
+![GoatOS Screenshot](images/Screenshot-2026-06-23-132053.png)
 
 #Try it out!
 https://sclaireloucks-arch.github.io/veryfirstwebsite/
